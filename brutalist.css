@@ -30,12 +30,22 @@ th {
     background-color: #eee;
 }
 
+@media only screen and (max-width: 720px) {
+    img {
+        max-width: 100%;
+    }
+    
+    pre {
+        overflow-y: scroll;
+    }
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #000;
         color: #e8e6e3;
     }
-    
+
     a:link {
         color: #3391ff;
     }
